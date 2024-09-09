@@ -6,6 +6,7 @@ CFLAGS = -O3 -Wall
 SRC_DIR = src
 BUILD_DIR = build
 INSTANCES_DIR = instances
+INSTANCE_FILE = instance1.txt
 
 # Arquivos fonte e executável
 SRC = $(wildcard $(SRC_DIR)/*.cpp)
@@ -30,4 +31,4 @@ clean:
 
 # Rodar o executável com uma instância
 run: all
-	./$(TARGET) $(INSTANCES_DIR)/instance1.txt
+	./$(TARGET) $(INSTANCES_DIR)/$(INSTANCE_FILE)

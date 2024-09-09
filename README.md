@@ -80,4 +80,4 @@ Se o `make` não estiver disponível, você pode usar os scripts de shell fornec
    - Usando `make` ou o script `build.sh`.
 
 3. **Execute o Programa:**
-   - Usando `make run INSTANCES_FILE=path_to_file` ou executando o executável `./build/avob_scheduler path_to_file`.
+   - Usando `make run INSTANCE_FILE=path_to_file` ou executando o executável `./build/avob_scheduler path_to_file`.
